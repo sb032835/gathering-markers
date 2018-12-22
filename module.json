@@ -6,6 +6,5 @@
     "options": {
         "niceName": "Gathering Markers"
     },
-    "servers": ["https://raw.githubusercontent.com/teralove/gathering-markers/master/"],
-    "supportUrl": "https://github.com/teralove/gathering-markers/issues"
+    "servers": ["https://raw.githubusercontent.com/sb032835/gathering-markers/master/"]
 }

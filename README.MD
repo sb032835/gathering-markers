@@ -19,24 +19,24 @@ Spawn item markers on specific gathering nodes and hides undesireable nodes.
 
 | Collection IDs |
 | ------------------------ |
-| 1 - Harmony Grass |
-| 2 - Wild Cobseed |
-| 3 - Veridia Root |
-| 4 - Orange Mushroom |
-| 5 - Moongourd |
-| 6 - Apple Tree |
-| 101 - Plain Stone |
-| 102 - Cobala Ore |
-| 103 - Shadmetal Ore |
-| 104 - Xermetal Ore |
-| 105 - Normetal Ore |
-| 106 - Galborne Ore |
-| 201 - Achromic Essence |
-| 202 - Crimson Essence |
-| 203 - Earth Essence |
-| 204 - Azure Essence |
-| 205 - Opal Essence |
-| 206 - Obsidian Essence |
+| 1 - 雜草 |
+| 2 - 玉米 |
+| 3 - 紅蘿蔔 |
+| 4 - 黃蘑菇 |
+| 5 - 老南瓜 |
+| 6 - 蘋果樹 |
+| 101 - 岩石 |
+| 102 - 鈷礦石 |
+| 103 - 硒礦石 |
+| 104 - 水晶礦石 |
+| 105 - 秘銀礦石 |
+| 106 - 碣礦石 |
+| 201 - 無色結晶 |
+| 202 - 赤色結晶 |
+| 203 - 綠色結晶 |
+| 204 - 青色結晶 |
+| 205 - 白色結晶 |
+| 206 - 黑色結晶 |
 
 ---
 

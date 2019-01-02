@@ -19,16 +19,16 @@ module.exports = function GatheringMarkers(mod) {
       if (gatheringTargets.includes(id)) {
         if (!mod.settings.markTargets.includes(id))
           mod.settings.markTargets.push(id)
-        message = `<font color="#56B4E9">${id}</font>加入標記清單`
+        message = `${id}<font color="#56B4E9"> 加入標記清單 </font>`
       } else {
-        message = `<font color="#FF0000">${id}</font>非採集清單範圍內`
+        message = `${id}<font color="#FF0000"> 非採集清單範圍內 </font>`
       }
       mod.command.message(message)
     },
     remove(id) {
       id = Number(id)
       _.pull(mod.settings.markTargets, id)
-      mod.command.message(`<font color="#E69F00">${id}</font>從標記清單中移除`)
+      mod.command.message(`${id}<font color="#E69F00"> 從標記清單中移除 </font>`)
     },
     clean() {
       mod.settings.markTargets = []
@@ -51,7 +51,7 @@ module.exports = function GatheringMarkers(mod) {
           mod.settings.markTargets = energies
           break
         default:
-          return mod.command.message(`${args[0]} 無效參數`)
+          return mod.command.message(`${args[0]} <font color="#FF0000">無效參數`)
       }
     }
   })
@@ -98,4 +98,4 @@ module.exports = function GatheringMarkers(mod) {
   function clearMarkers() {
     markers.forEach(despawnMarker)
   }
-}
+}	

@@ -21,14 +21,14 @@ module.exports = function GatheringMarkers(mod) {
           mod.settings.markTargets.push(id)
         message = `[${id}]<font color="#56B4E9"> 加入標記清單 </font>`
       } else {
-        message = `$[{id}]<font color="#FF0000"> 非採集清單範圍內 </font>`
+        message = `[${id}]<font color="#FF0000"> 非採集清單範圍內 </font>`
       }
       mod.command.message(message)
     },
     remove(id) {
       id = Number(id)
       _.pull(mod.settings.markTargets, id)
-      mod.command.message(`$[{id}]<font color="#E69F00"> 從標記清單中移除 </font>`)
+      mod.command.message(`[${id}]<font color="#E69F00"> 從標記清單中移除 </font>`)
     },
     clean() {
       mod.settings.markTargets = []

@@ -98,4 +98,4 @@ module.exports = function GatheringMarkers(mod) {
   function clearMarkers() {
     markers.forEach(despawnMarker)
   }
-}	
+}

@@ -2,20 +2,16 @@
 Spawn item markers on specific gathering nodes and hides undesireable nodes.
 
 # Commands 
-- **gathering** - toggle module off/on (DEFAULT: ON)
-- **gathering on** - turn on module
-- **gathering off** - turn off module
-- **gathering marker** - toggle item markers (DEFAULT: ON)
-- **gathering messager** - toggle proxy messages (DEFAULT: OFF)
-- **gathering alert** - toggle system notices (DEFAULT: OFF)
-
-# Config
-- **enabled** - Turn module on during startup
-- **markenabled** - Enable item spawning
-- **messager** - Enable proxy messages
-- **alerts** - Enable system notices
-- **whiteList** - Gathering nodes not in this list will be hidden
-- **markList** - Gathering nodes in this list will spawn item markers
+- `gathering`
+  - toggle mod enabled/disabled
+- `gathering add ${id}`
+  - add item of `id` to marking list
+- `gathering remove ${id}`
+  - remove item of `id` to marking list
+- `gathering clean`
+  - clear marking list
+- `gathering [herb|mine|energy]`
+  - add item of specified type to marking list
 
 | Collection IDs |
 | ------------------------ |

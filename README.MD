@@ -2,15 +2,15 @@
 Spawn item markers on specific gathering nodes and hides undesireable nodes.
 
 # Commands 
-- `gathering`
+- `gath`
   - toggle mod enabled/disabled
-- `gathering add ${id}`
+- `gath add ${id}`
   - add item of `id` to marking list
-- `gathering remove ${id}`
+- `gath remove ${id}`
   - remove item of `id` to marking list
-- `gathering clean`
+- `gath clean`
   - clear marking list
-- `gathering [herb|mine|energy]`
+- `gath [herb|mine|energy]`
   - add item of specified type to marking list
 
 | Collection IDs |

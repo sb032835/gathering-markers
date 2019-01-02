@@ -35,9 +35,9 @@ module.exports = function GatheringMarkers(mod) {
       mod.command.message(`<font color="#E69F00">清除所有標記清單`)
     },
 	list() {
-		mod.command.message(`雜草[1] 玉米[2] 紅蘿蔔[3] 黃蘑菇[4] 老南瓜[5] 蘋果樹[6]`)
-		mod.command.message(`岩石[101] 鈷礦石[102] 硒礦石[103] 水晶礦石[104] 秘銀礦石[105] 碣礦石[106]`)
-		mod.command.message(`無色結晶[201] 赤色結晶[202] 綠色結晶[203] 青色結晶[204] 黑色結晶[205]`)
+		mod.command.message(`[雜草-1] [玉米-2] [紅蘿蔔-3] [黃蘑菇-4] [老南瓜-5] [蘋果樹-6]`)
+		mod.command.message(`[岩石-101] [鈷礦石-102] [硒礦石-103] [水晶礦石-104] [秘銀礦石-105] [碣礦石-106]`)
+		mod.command.message(`[無色結晶-201] [赤色結晶-202] [綠色結晶-203] [青色結晶-204] [黑色結晶-205]`)
 	},
     $default(args) {
       switch (args[0]) {

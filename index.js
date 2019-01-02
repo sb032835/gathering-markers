@@ -11,7 +11,7 @@ module.exports = function GatheringMarkers(mod) {
   mod.command.add('gath', {
     $none() {
       mod.settings.enabled = !mod.settings.enabled
-      mod.command.message(`${mod.settings.enabled ? '開啟' : '關閉'}`)
+      mod.command.message(`你他媽在哪裡 ${mod.settings.enabled ? '<font color="#56B4E9">開啟' : '<font color="#E69F00">關閉'}`)
     },
     add(id) {
       id = Number(id)
@@ -19,20 +19,20 @@ module.exports = function GatheringMarkers(mod) {
       if (gatheringTargets.includes(id)) {
         if (!mod.settings.markTargets.includes(id))
           mod.settings.markTargets.push(id)
-        message = ` ${id} 加入標記清單`
+        message = `<font color="#56B4E9">${id}</font>加入標記清單`
       } else {
-        message = `${id} 非採集清單範圍內`
+        message = `<font color="#FF0000">${id}</font>非採集清單範圍內`
       }
       mod.command.message(message)
     },
     remove(id) {
       id = Number(id)
       _.pull(mod.settings.markTargets, id)
-      mod.command.message(` ${id} 從標記清單中移除`)
+      mod.command.message(`<font color="#E69F00">${id}</font>從標記清單中移除`)
     },
     clean() {
       mod.settings.markTargets = []
-      mod.command.message('清除所有標記清單')
+      mod.command.message(`<font color="#E69F00">清除所有標記清單`)
     },
 	list() {
 		mod.command.message(`雜草[1] 玉米[2] 紅蘿蔔[3] 黃蘑菇[4] 老南瓜[5] 蘋果樹[6]`)

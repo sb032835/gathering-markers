@@ -4,7 +4,10 @@
     "author": "teralove / valkyr1e",
     "description": "Spawn item markers on gathering nodes and hide undesireable nodes.",
     "options": {
-        "niceName": "Gathering Markers"
+        "niceName": "Gathering Markers",
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "settings_migrator.js"
     },
     "servers": ["https://raw.githubusercontent.com/sb032835/gathering-markers/master/"]
 }

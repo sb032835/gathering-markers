@@ -4,9 +4,9 @@ Spawn item markers on specific gathering nodes and hides undesireable nodes.
 # Commands 
 - `gath`
   - toggle mod enabled/disabled
-- `gath add ${id}`
+- `gath add id`
   - add item of `id` to marking list
-- `gath remove ${id}`
+- `gath remove id`
   - remove item of `id` to marking list
 - `gath clean`
   - clear marking list

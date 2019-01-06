@@ -10,6 +10,10 @@ Spawn item markers on specific gathering nodes and hides undesireable nodes.
   - remove item of `id` to marking list
 - `gath clean`
   - clear marking list
+- `gath list`
+  - print marking list
+- `gath info`
+  - print collection list
 - `gath [herb|mine|energy]`
   - add item of specified type to marking list
 
